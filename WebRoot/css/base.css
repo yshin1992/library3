@@ -1,0 +1,49 @@
+table {
+	width: 100%;
+	border-collapse: collapse
+}
+
+td {
+	padding: 0.2em;
+}
+
+.tdTitle {
+	width: 35%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.tdValue {
+	width: 65%;
+	color: #646464;
+}
+
+input[type="button"] {
+	margin: 0.3em 0;
+}
+
+#RRR {
+	color: red;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+hr{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+.photo {
+	width: 59px;
+	height: 82;
+	vertical-align: middle;
+}
+
+div .row2{
+	width:100%;
+	margin-left:2em;
+	margin-right:2em;
+}

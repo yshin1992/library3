@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.library.dao.MailDao">
+	<insert id="insert">
+		insert into mail(<include refid="field_insert" />) values(#{mailFrom},#{mailTo},#{subject},#{content})
+	</insert>
+	
+	<sql id="field_insert">
+		mail_from,mail_to,subject,content
+	</sql>
+	
+</mapper>
